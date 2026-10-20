@@ -6,7 +6,7 @@
 #    By: afournie <afournie@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/09/28 15:32:40 by afournie          #+#    #+#              #
-#    Updated: 2026/10/14 15:09:33 by afournie         ###   ########.fr        #
+#    Updated: 2026/10/16 15:36:29 by afournie         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -15,7 +15,7 @@ OBJ_DIR		=	obj
 
 SRC			=	main.cpp
 
-INC			=	
+INC			=	easyfind.hpp
 
 OBJ			=	$(SRC:%.cpp=$(OBJ_DIR)/%.o)
 
