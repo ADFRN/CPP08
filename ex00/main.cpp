@@ -6,7 +6,7 @@
 /*   By: afournie <afournie@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/14 15:09:04 by afournie          #+#    #+#             */
-/*   Updated: 2026/10/16 15:44:41 by afournie         ###   ########.fr       */
+/*   Updated: 2026/10/21 10:59:07 by afournie         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ int main()
 	try {
 		std::vector<int>::iterator it = easyfind(v, 20);
 		std::cout << "Trouvé : " << *it << std::endl;
-		easyfind(v, 99); // doit lancer une exception
+		easyfind(v, 99);
 	}
 	catch (std::exception &e) {
 		std::cout << "Erreur : " << e.what() << std::endl;
