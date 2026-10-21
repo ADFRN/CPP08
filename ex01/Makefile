@@ -6,16 +6,17 @@
 #    By: afournie <afournie@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/09/28 15:32:40 by afournie          #+#    #+#              #
-#    Updated: 2026/10/14 15:09:45 by afournie         ###   ########.fr        #
+#    Updated: 2026/10/21 14:06:02 by afournie         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 SRC_DIR		=	.
 OBJ_DIR		=	obj
 
-SRC			=	main.cpp
+SRC			=	main.cpp	\
+				Span.cpp
 
-INC			=
+INC			=	Span.hpp
 
 OBJ			=	$(SRC:%.cpp=$(OBJ_DIR)/%.o)
 
